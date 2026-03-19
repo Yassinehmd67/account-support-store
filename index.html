@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Social Media Poster Templates</title>
+
+<style>
+:root{
+  --bg1:#0b1020;
+  --bg2:#111933;
+  --panel:rgba(255,255,255,0.06);
+  --line:rgba(255,255,255,0.12);
+  --text:#f7f9fc;
+  --muted:#b8c1d9;
+  --gold:#ffd166;
+  --accent:#4ade80;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  padding:40px;
+  font-family:Arial, Helvetica, sans-serif;
+  background:linear-gradient(160deg,var(--bg1),var(--bg2));
+  color:var(--text);
+}
+
+.container{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:30px;
+  max-width:1400px;
+  margin:auto;
+  min-width:1200px; /* يمنع نزول القوالب لسطرين */
+}
+
+.poster{
+  border-radius:20px;
+  padding:24px;
+  background:linear-gradient(180deg,rgba(255,255,255,0.05),rgba(255,255,255,0.03));
+  border:1px solid rgba(255,255,255,0.1);
+  box-shadow:0 15px 40px rgba(0,0,0,0.35);
+  min-height:260px;
+}
+
+.title{
+  font-size:22px;
+  font-weight:900;
+  margin-bottom:4px;
+}
+
+.platform{
+  font-size:18px;
+  font-weight:800;
+  color:var(--gold);
+  margin-bottom:12px;
+}
+
+.service{
+  display:flex;
+  justify-content:space-between;
+  font-size:14px;
+  padding:6px 0;
+  border-top:1px solid rgba(255,255,255,0.08);
+  gap:12px;
+}
+
+.price{
+  color:var(--gold);
+  font-weight:800;
+  white-space:nowrap;
+}
+
+.cta{
+  margin-top:12px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:13px;
+}
+
+.button{
+  background:var(--accent);
+  color:#08110d;
+  padding:6px 12px;
+  border-radius:8px;
+  font-weight:800;
+  text-decoration:none;
+}
+
+@media (max-width: 1100px){
+  .container{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width: 700px){
+  .container{
+    grid-template-columns:1fr;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- FACEBOOK TEMPLATE -->
+  <div class="poster">
+    <div class="title">ACCOUNT SUPPORT</div>
+    <div class="platform">FACEBOOK</div>
+
+    <div class="service">
+      <div>1000 followers</div>
+      <div class="price">70 MAD</div>
+    </div>
+    <div class="service">
+      <div>10000 views</div>
+      <div class="price">50 MAD</div>
+    </div>
+    <div class="service">
+      <div>10,000 likes</div>
+      <div class="price">50 MAD</div>
+    </div>
+
+    <div class="cta">
+      <div>WhatsApp</div>
+      <a class="button" href="https://wa.me/212660918924?text=I%20need%20service%20facebook">ORDER</a>
+    </div>
+  </div>
+
+  <!-- YOUTUBE TEMPLATE -->
+  <div class="poster">
+    <div class="title">ACCOUNT SUPPORT</div>
+    <div class="platform">YOUTUBE</div>
+
+    <div class="service">
+      <div>1000 followers</div>
+      <div class="price">300 MAD</div>
+    </div>
+    <div class="service">
+      <div>10,000 likes</div>
+      <div class="price">100 MAD</div>
+    </div>
+    <div class="service">
+      <div>1000 hours</div>
+      <div class="price">350 MAD</div>
+    </div>
+
+    <div class="cta">
+      <div>WhatsApp</div>
+      <a class="button" href="https://wa.me/212660918924?text=I%20need%20service%20youtube">ORDER</a>
+    </div>
+  </div>
+
+  <!-- INSTAGRAM TEMPLATE -->
+  <div class="poster">
+    <div class="title">ACCOUNT SUPPORT</div>
+    <div class="platform">INSTAGRAM</div>
+
+    <div class="service">
+      <div>1000 followers</div>
+      <div class="price">70 MAD</div>
+    </div>
+    <div class="service">
+      <div>1000 likes</div>
+      <div class="price">30 MAD</div>
+    </div>
+    <div class="service">
+      <div>10,000 views</div>
+      <div class="price">50 MAD</div>
+    </div>
+
+    <div class="cta">
+      <div>WhatsApp</div>
+      <a class="button" href="https://wa.me/212660918924?text=I%20need%20service%20instagram">ORDER</a>
+    </div>
+  </div>
+
+  <!-- TIKTOK TEMPLATE -->
+  <div class="poster">
+    <div class="title">ACCOUNT SUPPORT</div>
+    <div class="platform">TIKTOK</div>
+
+    <div class="service">
+      <div>1000 followers</div>
+      <div class="price">70 MAD</div>
+    </div>
+    <div class="service">
+      <div>10,000 views</div>
+      <div class="price">50 MAD</div>
+    </div>
+    <div class="service">
+      <div>10,000 likes</div>
+      <div class="price">50 MAD</div>
+    </div>
+
+    <div class="cta">
+      <div>WhatsApp</div>
+      <a class="button" href="https://wa.me/212660918924?text=I%20need%20service%20tiktok">ORDER</a>
+    </div>
+  </div>
+
+  <!-- LINKEDIN TEMPLATE -->
+  <div class="poster">
+    <div class="title">ACCOUNT SUPPORT</div>
+    <div class="platform">LINKEDIN</div>
+
+    <div class="service">
+      <div>1000 followers</div>
+      <div class="price">220 MAD</div>
+    </div>
+    <div class="service">
+      <div>1000 likes</div>
+      <div class="price">230 MAD</div>
+    </div>
+    <div class="service">
+      <div>1000 comments</div>
+      <div class="price">400 MAD</div>
+    </div>
+
+    <div class="cta">
+      <div>WhatsApp</div>
+      <a class="button" href="https://wa.me/212660918924?text=I%20need%20service%20linkedin">ORDER</a>
+    </div>
+  </div>
+
+  <!-- WHATSAPP TEMPLATE -->
+  <div class="poster">
+    <div class="title">ACCOUNT SUPPORT</div>
+    <div class="platform">WHATSAPP</div>
+
+    <div class="service">
+      <div>1000 followers</div>
+      <div class="price">120 MAD</div>
+    </div>
+    <div class="service">
+      <div>1000 opinion polls</div>
+      <div class="price">200 MAD</div>
+    </div>
+    <div class="service">
+      <div>1000 emojis</div>
+      <div class="price">90 MAD</div>
+    </div>
+
+    <div class="cta">
+      <div>WhatsApp</div>
+      <a class="button" href="https://wa.me/212660918924?text=I%20need%20service%20whatsapp">ORDER</a>
+    </div>
+  </div>
+
+  <!-- DESIGN TEMPLATE -->
+  <div class="poster">
+    <div class="title">ACCOUNT SUPPORT</div>
+    <div class="platform">DESIGN</div>
+
+    <div class="service">
+      <div>Tool programming</div>
+      <div class="price">500 MAD</div>
+    </div>
+    <div class="service">
+      <div>Landing page</div>
+      <div class="price">300 MAD</div>
+    </div>
+    <div class="service">
+      <div>Professional CV</div>
+      <div class="price">70 MAD</div>
+    </div>
+
+    <div class="cta">
+      <div>WhatsApp</div>
+      <a class="button" href="https://wa.me/212660918924?text=I%20need%20service%20design">ORDER</a>
+    </div>
+  </div>
+
+  <!-- SNAPCHAT TEMPLATE -->
+  <div class="poster">
+    <div class="title">ACCOUNT SUPPORT</div>
+    <div class="platform">SNAPCHAT</div>
+
+    <div class="service">
+      <div>1000 Member Services</div>
+      <div class="price">350 MAD</div>
+    </div>
+    <div class="service">
+      <div>1000 followers</div>
+      <div class="price">300 MAD</div>
+    </div>
+    <div class="service">
+      <div>1000 likes</div>
+      <div class="price">200 MAD</div>
+    </div>
+
+    <div class="cta">
+      <div>WhatsApp</div>
+      <a class="button" href="https://wa.me/212660918924?text=I%20need%20service%20snapchat">ORDER</a>
+    </div>
+  </div>
+
+  <!-- TWITTER TEMPLATE -->
+  <div class="poster">
+    <div class="title">ACCOUNT SUPPORT</div>
+    <div class="platform">TWITTER</div>
+
+    <div class="service">
+      <div>1000 followers</div>
+      <div class="price">150 MAD</div>
+    </div>
+    <div class="service">
+      <div>10000 views</div>
+      <div class="price">70 MAD</div>
+    </div>
+    <div class="service">
+      <div>1000 likes</div>
+      <div class="price">70 MAD</div>
+    </div>
+
+    <div class="cta">
+      <div>WhatsApp</div>
+      <a class="button" href="https://wa.me/212660918924?text=I%20need%20service%20twitter">ORDER</a>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
